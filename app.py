@@ -74,6 +74,17 @@ apply_theme()
 init_database()
 
 # =====================================================
+# INITIAL ADMIN SETUP
+# =====================================================
+
+from admin_setup import create_initial_admin
+
+try:
+    create_initial_admin()
+except Exception:
+    pass
+
+# =====================================================
 # AUTHENTICATION
 # =====================================================
 
