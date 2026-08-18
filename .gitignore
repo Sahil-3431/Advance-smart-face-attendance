@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Local database
+data/attendance.db
+
+# Admin creation script
+create_admin.py
+
+# OS files
+.DS_Store
+Thumbs.db
