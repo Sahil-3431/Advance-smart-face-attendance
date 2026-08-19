@@ -15,3 +15,6 @@ create_admin.py
 # OS files
 .DS_Store
 Thumbs.db
+.env
+
+migrate_to_supabase.py
