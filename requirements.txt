@@ -6,3 +6,5 @@ pandas
 plotly
 Pillow
 av
+psycopg[binary]
+python-dotenv
